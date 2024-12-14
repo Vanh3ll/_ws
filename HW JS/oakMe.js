@@ -11,7 +11,7 @@ app.use((ctx) =>
     ctx.response.body=
     `<html>
         <body>
-            <h1>自我介紹</h1>
+            <h1>自我介紹 Self Introduction</h1>
 
             <ol>
                 <ui><a href="/name">姓名</a></ui>
@@ -23,15 +23,15 @@ app.use((ctx) =>
     
     if (pathname == '/name')
     {
-        ctx.response.body = '吳佳泰'
+        ctx.response.body = '卓孝偉'
     } 
     else if (pathname == '/age')
     {
-        ctx.response.body = '19'
+        ctx.response.body = '20'
     }
     else if (pathname == '/gender')
     {
-        ctx.response.body = "男♂"
+        ctx.response.body = "男"
     }
     // ctx.response.body = 'Not Found!'
 
